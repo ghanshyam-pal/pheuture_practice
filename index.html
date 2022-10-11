@@ -1,0 +1,27 @@
+<!DOCTYPE hrml>
+<html>
+<head>
+	<title>day 2</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<center><h1>Input Form</h1>
+	<br/>
+	<form action="valid.php" method="POST" enctype="multipart/form-data">
+		Name: <input type="text" name="names"/><br/><br/>
+		Password: <input type="password" name="passwords"/><br/><br/>
+		Age: <input type="text" name="ages"/><br/><br/>
+		Email: <input type="email" name="emails"/><br/><br/>
+		Gender: <input type="radio" name="genders" value="males"/>Male
+		<input type="radio" name="genders" value="females"/>Female<br/><br/>
+		Country: <select name="countrys">
+			<option value=""></option>
+			<option value="IN">india</option>
+			<option value="US">us</option>
+			<option value="EU">eu</option>
+		</select><br/><br/>
+		<input type="file" name="files" accept="document" />
+		<input type="submit" name="submits"/>
+	</form></center>
+</body>
+</html>
